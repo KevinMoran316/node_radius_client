@@ -28,7 +28,7 @@ setInterval( () => {
     //codifica el paquete
     const encoded_packet = radius.encode(packet);
 
-    server.send(encoded_packet, 0, encoded_packet.length, 1812, '127.0.0.1' , function (err, bytes) {        
+    server.send(encoded_packet, 0, encoded_packet.length, 1813, '127.0.0.1' , function (err, bytes) {        
         if (err) {
             console.log(err.toString());
             return;
