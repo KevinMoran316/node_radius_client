@@ -1,0 +1,27 @@
+# -*- text -*-
+##############################################################################
+#
+#    Incognito's VSA's
+#
+#    2022-06-14
+#
+##############################################################################
+
+#
+#    Incognito's VSA's
+#
+
+VENDOR Incognito 3606
+
+BEGIN-VENDOR Incognito
+
+ATTRIBUTE   Incognito-Remote-ID                      1   string
+ATTRIBUTE   Incognito-Circuit-ID                     2   string
+ATTRIBUTE   Incognito-Subscriber-ID                  3   string
+ATTRIBUTE   Incognito-MAC-Address                    4   string
+ATTRIBUTE   Incognito-Rule-Name                      5   string
+ATTRIBUTE   Incognito-Rule-Description               6   string
+ATTRIBUTE   Incognito-Class-ID                       7   string
+ATTRIBUTE   Incognito-Sent-Assigned-Hostname         8   string
+
+END-VENDOR Incognito
